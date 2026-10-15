@@ -1,12 +1,25 @@
-data-short-clean/games_short.csv
-data-short-clean/recommendations_short.csv
-data-short-clean/all_reviews_short.csv
-data-clean/recommendations.csv
-data-clean/games.csv
-data-clean/all_reviews.csv
+data-short-clean/games_short_clean.csv
+data-short-clean/recommendations_short_clean.csv
+data-short-clean/all_reviews_short_clean.csv
+data-clean/recommendations_clean.csv
+data-clean/games_clean.csv
+data-clean/all_reviews_clean.csv
+/games.csv
+/recommendations.csv
+/all_reviews.csv
+/games_clean.csv
+/recommendations_clean.csv
+/all_reviews_clean.csv
+/games_short_clean.csv
+/recommendations_short_clean.csv
+/all_reviews_short_clean.csv
 Milestone 1.docx
 Row Count Screenshot.png
 CS5200 DBMS Project Guidelines.docx
 5200_Project1_UML_Markup.pdf
 data-clean/.DS_Store
 .DS_Store
+developers.csv
+game_developers.csv
+game_genres.csv
+genres.csv
