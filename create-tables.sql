@@ -53,7 +53,8 @@ CREATE TABLE GameVideo (
   app_id INT NOT NULL,
   name VARCHAR(255),
   url VARCHAR(255),
-  video_type ENUM ('trailer', 'gameplay') NOT NULL,
+  video_url VARCHAR(255),
+  video_type ENUM ('trailer', 'gameplay', 'screenshot') NOT NULL,
   CONSTRAINT pk_GameVideo_video_id PRIMARY KEY (video_id),
   CONSTRAINT fk_GameVideo_app_id
     FOREIGN KEY (app_id)
